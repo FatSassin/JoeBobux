@@ -1,3 +1,1 @@
-# JoeBobux
-yes i do
-xd beczka
+Kaszankajest zmaczdzna -/--/-/-/-/-/-///-///-//-/--/-/-
