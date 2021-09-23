@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.mickwadev.tictactoe": {
+      "version": "https://github.com/mickwadev/TicTacToePackage.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "17395e1b3c0de7aff19d8b28a202b51038a3272d"
+    },
     "com.unity.2d.animation": {
       "version": "6.0.4",
       "depth": 0,
