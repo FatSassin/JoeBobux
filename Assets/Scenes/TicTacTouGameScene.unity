@@ -199,7 +199,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7e0d3560a9f7b14da4f49afbe5da06e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4d1e0a7680e7e1249989266e1669db68, type: 3}
   m_Color: {r: 0.026268482, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -236,6 +236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b9cae484498d408aee89fc19562ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kolko: {fileID: 21300000, guid: d7e0d3560a9f7b14da4f49afbe5da06e, type: 3}
+  krzyzyk: {fileID: 21300000, guid: 4d1e0a7680e7e1249989266e1669db68, type: 3}
 --- !u!1 &1269541606
 GameObject:
   m_ObjectHideFlags: 0
