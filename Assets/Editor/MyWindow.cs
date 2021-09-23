@@ -11,6 +11,24 @@ public class MyWindow : EditorWindow
 
         GetWindow<MyWindow>();
     }
+
+    void OnGUI()
+    {
+       if( GUILayout.Button("Mój button"))
+        {
+            Debug.Log("Cheesus");
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 }
 
 
