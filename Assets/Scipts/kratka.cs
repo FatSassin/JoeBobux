@@ -10,7 +10,7 @@ enum Wybrane
 }
 public class kratka : MonoBehaviour
 {
-    public Sprite kolko, krzyzyk;
+    public Sprite Kolko, Krzyzyk;
     Wybrane Wybor = Wybrane.KOLKO; 
     SpriteRenderer sr;
     private void Start()
@@ -20,16 +20,29 @@ public class kratka : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("Cheesus");
-        sr.sprite = krzyzyk;
+        sr.sprite = Krzyzyk;
         if (Wybor == Wybrane.KRZYZYK)
         {
-            sr.sprite = kolko;
-            
+            sr.sprite = Krzyzyk;
+            Wybor = Wybrane.KOLKO;
         }
         else
         {
-            sr.sprite = krzyzyk;
+            sr.sprite = Kolko;
+            Wybor = Wybrane.KRZYZYK;
+        
+        
+        
         }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     }
 
     

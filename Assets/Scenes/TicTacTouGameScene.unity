@@ -236,8 +236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94b9cae484498d408aee89fc19562ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kolko: {fileID: 21300000, guid: d7e0d3560a9f7b14da4f49afbe5da06e, type: 3}
-  krzyzyk: {fileID: 21300000, guid: 4d1e0a7680e7e1249989266e1669db68, type: 3}
+  Kolko: {fileID: 21300000, guid: 4e8b20106248432478d7cc8411591511, type: 3}
+  Krzyzyk: {fileID: 21300000, guid: daf5fe6a68e6a854eb5c1e85439bafd0, type: 3}
 --- !u!1 &1269541606
 GameObject:
   m_ObjectHideFlags: 0
