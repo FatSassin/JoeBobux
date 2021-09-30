@@ -29,10 +29,7 @@ public class kratka : MonoBehaviour
         else
         {
             sr.sprite = Kolko;
-            Wybor = Wybrane.KRZYZYK;
-        
-        
-        
+            Wybor = Wybrane.KRZYZYK;      
         }
     
     
@@ -44,11 +41,18 @@ public class kratka : MonoBehaviour
     
     
     }
+    void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            //gameObject.SetActive(false);
+            sr.sprite = null;
+        }
+       
+            
 
-    
-    
 
-
+    }
 
 
 
