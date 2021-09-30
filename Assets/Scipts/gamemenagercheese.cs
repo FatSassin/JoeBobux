@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class gamemenagercheese : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public Wybrane wybranygracz;
+    void zmiengracza()
     {
-        
+        if (wybranygracz == Wybrane.KRZYZYK)
+        {
+            wybranygracz = Wybrane.KOLKO;
+        }
+        else 
+        {
+            wybranygracz = Wybrane.KRZYZYK;
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
 }
+ 
