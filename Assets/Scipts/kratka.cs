@@ -10,27 +10,35 @@ public enum Wybrane
 }
 public class kratka : MonoBehaviour
 {
-    
-    
-    public gamemenagercheese gamemenager
+
+
+    public gamemenagercheese gamemenager;
     public Sprite Kolko, Krzyzyk;
     Wybrane Wybor = Wybrane.KOLKO; 
     SpriteRenderer sr;
     private void Start()
     {
-        FindObjectOfType<gamemenagercheese>();
+        gamemenager = FindObjectOfType<gamemenagercheese>();
         sr = GetComponent<SpriteRenderer>();
     }
     private void OnMouseDown()
     {
-        Debug.Log("Cheesus");
-        sr.sprite = Krzyzyk;
-     
+        Debug.Log("Cheesus" + gamemenager.wybranygracz);
 
+        gamemenager.zmiengracza();
+        if (gamemenager.wybranygracz == Wybrane.KRZYZYK)
+        {
+            sr.sprite = Krzyzyk;
 
+        }
+        else 
+        {
+            sr.sprite = Kolko;
 
-
-
+        }
+    
+    
+    
     }
     void Update()
     {

@@ -6,7 +6,7 @@ public class gamemenagercheese : MonoBehaviour
 {
 
     public Wybrane wybranygracz;
-    void zmiengracza()
+    public void zmiengracza()
     {
         if (wybranygracz == Wybrane.KRZYZYK)
         {
